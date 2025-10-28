@@ -1,0 +1,40 @@
+# Entorno virtual
+venv/
+ENV/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data / outputs / modelos pesados
+runs/
+models/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+files/
+data/
+*.csv
+*.sqlite
+*.db
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Configs / secretos
+.env
+*.key
+*.pem
+secrets.json
+
+# Jupyter
+.ipynb_checkpoints/

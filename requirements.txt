@@ -1,0 +1,8 @@
+pip install python-doctr[torch]
+pip install label-studio
+pip install opencv-python
+pip install pillow
+pip install tqdm
+pip install wandb
+pip install editdistance
+pip install numpy pandas matplotlib
